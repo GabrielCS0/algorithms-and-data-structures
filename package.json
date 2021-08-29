@@ -1,0 +1,13 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel <gabrielcemp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
