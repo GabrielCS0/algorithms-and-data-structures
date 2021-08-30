@@ -1,6 +1,6 @@
 /**
-  * @param decNumber
-  * @param base
+  * @param {number} decNumber
+  * @param {number} base
   * @return {string}
 */
 

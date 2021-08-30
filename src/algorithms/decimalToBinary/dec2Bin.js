@@ -1,5 +1,5 @@
 /**
-  * @param decNumber
+  * @param {number} decNumber
   * @return {string}
 */
 

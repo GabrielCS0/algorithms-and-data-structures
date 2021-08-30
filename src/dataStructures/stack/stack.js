@@ -2,15 +2,15 @@ module.exports = class Stack {
   items = []
 
   /**
-    * @param element
-    * @return {array}
+    * @param {*} element
+    * @return {Array}
   */
   push (element) {
     return this.items.push(element)
   }
 
   /**
-    * @return {array}
+    * @return {Array}
   */
   pop () {
     return this.items.pop()

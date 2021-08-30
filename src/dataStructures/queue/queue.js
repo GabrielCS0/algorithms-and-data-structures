@@ -2,14 +2,15 @@ module.exports = class Queue {
   items = []
 
   /**
-    * @param element
+    * @param {*} element
+    * @returns {Array}
   */
   enqueue (element) {
-    this.items.push(element)
+    return this.items.push(element)
   }
 
   dequeue () {
-    this.items.shift()
+    return this.items.shift()
   }
 
   /**
